@@ -21,6 +21,15 @@ public class Mensch {
 			this.Harrfarbe=Haarfarbe;
 		}
 		
+		//Copy-Construktor: Damit kann man Objekte clonnen
+		public Mensch(Mensch mensch){
+			this.Name=mensch.Name;
+			this.IQ=mensch.IQ;
+			this.Harrfarbe=mensch.Harrfarbe;
+			
+		}
+		
+		
 		public void reden(String text){
 			System.out.println(text);
 		}

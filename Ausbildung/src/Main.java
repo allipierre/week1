@@ -19,6 +19,15 @@ public class Main {
       System.out.println(n.iQ());
       n.haarfabe();
      n.reden("hallo");
+     
+     Mensch o=new Mensch(n);
+     
+     o.reden();
+     o.namenSagen();
+     System.out.println(n.iQ());
+     o.haarfabe();
+    o.reden("hallo");
+    
 }
 
 }
