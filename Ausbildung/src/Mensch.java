@@ -1,8 +1,8 @@
 public class Mensch {
 	
-		private String Name="Namenlose";
-		private int IQ=100;
-		private String Harrfarbe="unbekannt";
+	protected String Name="Namenlose";
+		protected int IQ=100;
+		protected String Harrfarbe="unbekannt";
 		
 		/*Überladen heißt, ich habe eine Methode mit gleichen Namen, aber mit unterschiedliche Parameter
 		 * Der konstrucktor public Mensch() und public Mensch(String Name,int IQ,String Haarfarbe)
